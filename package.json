@@ -16,9 +16,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server",
-    "vite-project": "npm start --prefix vite-project",
-    "dev": "concurrently \"npm run server\" \"npm run vite-project\""
+    "server": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
